@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sati">
+<test name="ParmeterReport">
+<parameter name="url" value="https://www.facebook.com/">
+</parameter>
+<parameter name="fname" value="python">
+</parameter>
+<parameter name="sname" value="java">
+</parameter>
+<parameter name="email" value="satishsuravarpu084@gmail.com">
+</parameter>
+<parameter name="reenteremail" value="satishsuravarpu084@gmail.com">
+</parameter>
+<parameter name="password" value="Python@123">
+</parameter>
+<parameter name="dbay" value="16">
+</parameter>
+<parameter name="bmonth" value="Mar">
+</parameter>
+<parameter name="byear" value="1997">
+</parameter>
+<classes>
+<class name="may16.FacebookParameters">		
+</class>
+</classes>
+</test>
+</suite>

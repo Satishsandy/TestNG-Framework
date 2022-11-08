@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="pavan">
+
+
+<test name="Parameterreport">
+<parameter name="Url" value="http://money.rediff.com/index.html"></parameter>
+<parameter name="username" value="Anil.boddupally16@gmail.com"></parameter>
+<parameter name="password" value="Anil@9971"></parameter>
+<parameter name="stockname" value="Bajaj Finance Ltd."></parameter>
+<parameter name="maxprice" value="5000"></parameter>
+<parameter name="minprice" value="200"></parameter>
+<classes>
+<class name="may16.NewTest"></class>
+</classes>
+</test>
+
+
+
+</suite>

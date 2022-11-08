@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [pavan]">
+  <test thread-count="5" name="Parameterreport(failed)">
+    <parameter name="stockname" value="Bajaj Finance Ltd."/>
+    <parameter name="password" value="Anil@9971"/>
+    <parameter name="maxprice" value="5000"/>
+    <parameter name="minprice" value="200"/>
+    <parameter name="Url" value="http://money.rediff.com/index.html"/>
+    <parameter name="username" value="Anil.boddupally16@gmail.com"/>
+    <classes>
+      <class name="may16.NewTest">
+        <methods>
+          <include name="verifydata"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- may16.NewTest -->
+    </classes>
+  </test> <!-- Parameterreport(failed) -->
+</suite> <!-- Failed suite [pavan] -->

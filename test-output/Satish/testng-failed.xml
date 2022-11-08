@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Satish]" parallel="methods">
+  <test thread-count="2" name="Report(failed)" parallel="methods">
+    <classes>
+      <class name="may14.Addcart">
+        <methods>
+          <include name="addcart"/>
+        </methods>
+      </class> <!-- may14.Addcart -->
+      <class name="may12.NewT">
+        <methods>
+          <include name="Leave"/>
+          <include name="tearDown"/>
+          <include name="Performance"/>
+          <include name="beforeTest"/>
+          <include name="Admin"/>
+          <include name="Dashboard"/>
+          <include name="Time"/>
+          <include name="Pim"/>
+        </methods>
+      </class> <!-- may12.NewT -->
+      <class name="may12.FirstTestNGClass">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="iBanking"/>
+          <include name="cBanking"/>
+          <include name="pBanking"/>
+        </methods>
+      </class> <!-- may12.FirstTestNGClass -->
+      <class name="may12.SecondTestNgClass">
+        <methods>
+          <include name="setUp"/>
+          <include name="users"/>
+          <include name="tearDown"/>
+          <include name="branches"/>
+          <include name="roles"/>
+        </methods>
+      </class> <!-- may12.SecondTestNgClass -->
+    </classes>
+  </test> <!-- Report(failed) -->
+</suite> <!-- Failed suite [Satish] -->

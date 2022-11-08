@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [orange]">
+  <test thread-count="5" name="HRM(failed)">
+    <parameter name="Username" value="Admin"/>
+    <parameter name="URL" value="https://opensource-demo.orangehrmlive.com/"/>
+    <parameter name="Password" value="admin123"/>
+    <classes>
+      <class name="may14.Testdata">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validatedata" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- may14.Testdata -->
+    </classes>
+  </test> <!-- HRM(failed) -->
+</suite> <!-- Failed suite [orange] -->

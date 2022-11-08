@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [sati]">
+  <test thread-count="5" name="ParmeterReport(failed)">
+    <parameter name="fname" value="python"/>
+    <parameter name="bmonth" value="Mar"/>
+    <parameter name="password" value="Python@123"/>
+    <parameter name="byear" value="1997"/>
+    <parameter name="sname" value="java"/>
+    <parameter name="reenteremail" value="satishsuravarpu084@gmail.com"/>
+    <parameter name="dbay" value="16"/>
+    <parameter name="url" value="https://www.facebook.com/"/>
+    <parameter name="email" value="satishsuravarpu084@gmail.com"/>
+    <classes>
+      <class name="may16.FacebookParameters">
+        <methods>
+          <include name="validatefacebook" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- may16.FacebookParameters -->
+    </classes>
+  </test> <!-- ParmeterReport(failed) -->
+</suite> <!-- Failed suite [sati] -->

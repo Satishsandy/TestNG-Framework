@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="orange">
+<test name="HRM">
+<parameter name="Browser" value="chrome"/>
+<parameter name="URL" value="https://opensource-demo.orangehrmlive.com/">
+</parameter>
+<parameter name="Username" value="Admin">
+</parameter>
+<parameter name="Password" value="admin123">
+</parameter>
+<classes>
+   <class name="may14.Testdata"/>
+</classes>
+</test>
+</suite>
